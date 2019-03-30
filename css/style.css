@@ -1,0 +1,43 @@
+body{
+background: #F1C40F;
+text-align: center;
+font-size: 55px;
+}
+.parent{
+  background: #5DADE2;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  padding: 5%;
+}
+.child
+{
+   text-align: center;
+  background: #F5B041;
+  border: 2px solid #C70039;
+  width : 30%;
+  margin: 5%;
+  padding:2%;
+  height:40%;
+}
+img{
+  width:100%;
+  height: 100%;
+  margin: 3%;
+}
+@media screen and (max-width:767px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+  .child{
+    width: 100%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+  .child{
+    width: 30%;
+  }
+}

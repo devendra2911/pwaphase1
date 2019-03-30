@@ -1,0 +1,42 @@
+{
+  "profile":{
+    "image":"images/men.jpg",
+    "name":"K.Devendra Prasad",
+    "college":"Mits",
+    "phno":"7287952106"
+  },
+  "career":
+  {
+    "info":"to became a software"
+  },
+  "education":[{
+    "qualification":"B.Tech",
+    "institution":"Mits",
+    "percentage":"80%",
+    "yop":"2021"
+  }
+,{
+  "qualification":"intermediate",
+  "institution":"Sri chaithanya jr college",
+  "percentage":"94.6%",
+  "yop":"2017"
+}
+,{
+  "qualification":"SSC",
+  "institution":"RR High School",
+  "percentage":"85%",
+  "yop":"2015"
+}
+],
+"skills":[
+  {
+    "name":"web technologies",
+    "info":"[html,css,java]"
+  },
+  {
+    "name":"database",
+    "info":"[dbms,java]"
+  }
+]
+
+}
